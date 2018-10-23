@@ -106,4 +106,13 @@ img.portfolio {
   transform: translateZ(0);
   will-change: transform;
 }
+
+.sticky {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-align: center;
+      align-items: center;
+}
 /*# sourceMappingURL=style.css.map */

@@ -105,3 +105,9 @@ padding: 1rem;
           transform: translateZ(0);
   will-change: transform;
 }
+
+.sticky {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
