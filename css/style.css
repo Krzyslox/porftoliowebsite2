@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 body {
   overflow-x: hidden;
   /*--right gutter fix--*/
-  font-family: sans-serif;
+  font-family: 'Lato' ,sans-serif;
   color: #505962;
+}
+
+.offset:before {
+  height: 62px;
+  margin-top: -62px;
+  content: "";
+  display: block;
 }
 
 .navbar-brand img {
@@ -12,6 +20,26 @@ body {
 .navbar {
   text-transform: uppercase;
   background-color: #505962;
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+}
+
+.navbar-nav {
+  padding-left: 1rem;
+}
+
+.navbar-nav .nav-link {
+  padding-top: .8rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #00b3ff	!important;
+}
+
+[class*="col-"] {
+  padding: 1rem;
 }
 
 .home-inner {
@@ -75,6 +103,10 @@ img.portfolio {
   margin: 1.5rem;
 }
 
+.navbar {
+  opacity: 0.9;
+}
+
 /*--- iOS Landing Page Fix --*/
 .landing {
   position: relative;
@@ -114,5 +146,11 @@ img.portfolio {
       justify-content: flex-end;
   -ms-flex-align: center;
       align-items: center;
+}
+
+#testimonials .row,
+#portfolio .row {
+  width: 100%;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
