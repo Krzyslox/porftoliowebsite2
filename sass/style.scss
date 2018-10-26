@@ -106,6 +106,8 @@ img.portfolio {
 	margin: 2rem;
 }
 
+/// Footer
+
 .footer .row {
 background-color: #505962;
 color: #fff;
@@ -114,7 +116,28 @@ padding: 1rem;
 
 .footer img {
 	height: 2rem;
-	margin: 1.5rem;
+	margin: 1.5rem 0;
+}
+
+#contact .fab {
+	color: #fff;
+	margin-right: .8rem;
+
+	&:hover {
+		color: $blue-text;
+	}
+}
+
+.footer-underline {
+	width: 100%;
+	height: .1rem;
+	background-color: #5c6066;
+	margin:auto;
+}
+
+.footer h3 {
+	text-transform: uppercase;
+	margin: 1.5rem 0;
 }
 
 
@@ -122,6 +145,32 @@ padding: 1rem;
 .navbar {
 	opacity: 0.9;
 }
+
+//Contact
+.form-group {
+	margin-bottom: 1.3rem;
+
+	& input::placeholder,
+	& textarea::placeholder {
+		color: #b2b5b8 !important;
+	}
+}
+.form-control {
+	background-color: #53595f;
+	border-radius: 0;
+	border: .1rem solid #666d71;
+	color: #fff !important;
+
+	&:focus {
+		background-color: #53595f;
+		border: .1rem solid #666d71;
+	}
+}
+input.btn {
+	cursor: pointer;
+}
+
+
 
 
 
